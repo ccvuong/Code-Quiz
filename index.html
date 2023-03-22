@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Coding Quiz</title>
+</head>
+
+<body>
+    <!-- separated highscores in 2nd HTML file -->
+    <div id="leaderboard">
+        <a href="./assets/leaderboard.html" id="leaderboardBtn">View Leaderboard</a>
+        <div id="currentTime"></div>
+    </div>
+
+    
+
+    <div id="wrapper">
+
+        <div id="quizQuestions">
+            <h1> 📝 Coding Quiz Challenge 📝 </h1>
+
+            <p id="info">Answer the code related questions within the time limit. Incorrect questions will reduce the
+                time you have left. Good luck! </p>
+
+            <ul id="choicesMade"></ul>
+
+            <button id="startTime">Start Quiz</button>
+        </div>
+
+    </div>
+
+    <!-- separated quiz.js and scores.js -->
+    <script src="./assets/questions.js"></script>
+
+</body>
+
+</html>

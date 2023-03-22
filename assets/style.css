@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --btn: #0081ba;
+    --hover: #00ba63;
+
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+#info {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#leaderboard {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 33%;
+    margin-top: 3%;
+    margin-right: 33%;
+}
+
+#leaderboardBtn {
+    color: var(--btn);
+}
+
+#leaderboardBtn:hover {
+    color: var(--hover);
+}
+
+#wrapper {
+    left: 30%;
+    top: 20%;
+    height: 500px;
+}
+
+#startTime {
+    background-color: var(--btn);
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+
+#quizQuestions {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+#currentTime {
+    float: right;
+    color: red;
+}
+
+#clearScoresBtn {
+    background-color: var(--btn);
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    right: 5%;
+    text-align: center;
+    border: none;
+}
+
+#backBtn {
+    background-color: var(--btn);
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    width: auto;
+    text-align: center;
+    left: 3%;
+    text-decoration: none;
+    border: none;
+}
+
+button {
+    border-radius: 8px;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+#submitBtn {
+    background-color: var(--btn);
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+#startTime:hover,
+#backBtn:hover,
+#clearScoresBtn:hover,
+#submitBtn:hover {
+    cursor: pointer;
+    background-color: var(--hover);
+}
+
+label {
+    margin-bottom: 1%;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 15%;
+    padding: 0.5%;
+    border: 1px solid lightgray;
+    font-size: medium;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+#questionChoices {
+    background-color: #87c4e5;
+    margin-top: 10px;
+    padding: 5px 15px;
+    width: 80%;
+    font-size: 18px;
+}
+
+#questionChoices:hover {
+    cursor: pointer;
+    background-color: #87e5a6;
+}
+
+#answerNotify {
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#scoreList {
+    background-color: #87c4e5;
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+
+#scoreBtns {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 1%;
+}
