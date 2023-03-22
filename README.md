@@ -37,7 +37,8 @@ THEN I can save my initials and score
 ```
 
 ## Preview 
-(TBA)
+![code quiz preview](https://user-images.githubusercontent.com/116984891/226863911-b6777294-1501-4f27-93b6-fdd4088e2f02.png)
+
 
 ## Contributors
 [😎 Christina Vuong ](https://github.com/ccvuong)
